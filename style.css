@@ -62,3 +62,8 @@ a {
   font-size: 1.7em;
   text-align: center;
 }
+
+.share {
+  background-image: url("https://media.giphy.com/media/dAWZiSMbMvObDWP3aA/source.gif");
+  background-size: cover;
+}
