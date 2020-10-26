@@ -1,65 +1,72 @@
 html {
   scroll-behavior: smooth;
-  background: #FFFFFF;
+  background: #242423;
 }
 
 body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   color: white;
-  font-weight: 500;
+  font-family: 'Open Sans', sans-serif;
 }
 
 li {
-  padding-left: 5px;
+  font-size: 20px;
+  padding-left: 15px;
   padding-right: 5px;
+  padding-top: 7.5px;
 }
 
 li:hover {
-  background-color: #D6EFFF;
+  background-color: #333533;
 }
 
 
 ul:hover {
-  box-shadow: 0 3px 3px 0 #000000, 3px 3px 3px 0px #000000;
+  box-shadow: 0 3px 3px 0 #F5CB5C, 3px 3px 3px 0px #F5CB5C;
 }
 
 a {
-  color: black;
+  color: #E8EDDF;
 }
 
 .header {
   text-align: center;
   vertical-align: middle;
   min-height: 100px;
-  background-image: url("https://media.giphy.com/media/dAWZiSMbMvObDWP3aA/source.gif");
+  background-color: #242423;
+  border-bottom: 1px solid #CFDBD5;
   background-size: cover;
-  padding: -5px;
-  margin: -5px;
+
 }
 
 .title {
   padding-top: 15px;
-  font-size: 2em;
+  font-size: 50px;
 }
 
 .subtitle {
-
+  font-size: 20px;
+  margin-bottom: 25px;
 }
 
 .holder {
-  background-color: white;
+  background-color: #242423;
   margin-top: 25px;
   margin-left: 15px;
-  margin-right: 15px
+  margin-right: 15px;
+  margin-bottom: 30px;
 }
 
 .subitem {
-  color: grey;
-  font-size: .7em;
-  padding-bottom: 2px;
+  color: #CFDBD5;
+  font-size: 13px;
+  padding-bottom: 5px;
+  padding-left: 5px;
 }
 
 .itemtitle {
-  font-size: 1.7em;
+  font-size: 33px;
   text-align: center;
 }
 
